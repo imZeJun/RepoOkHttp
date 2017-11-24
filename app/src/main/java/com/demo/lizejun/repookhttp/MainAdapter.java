@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.demo.lizejun.repookhttp.chapter1.SimpleActivity;
+import com.demo.lizejun.repookhttp.chapter2.CacheActivity;
 import com.demo.lizejun.repookhttp.utils.Utils;
 
 import java.util.ArrayList;
@@ -40,6 +41,9 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MainViewHolder
                 switch (position) {
                     case 0:
                         Utils.startActivity(v.getContext(), SimpleActivity.class);
+                        break;
+                    case 1:
+                        Utils.startActivity(v.getContext(), CacheActivity.class);
                         break;
                     default:
                         break;

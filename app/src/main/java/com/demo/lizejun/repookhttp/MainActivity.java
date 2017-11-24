@@ -20,6 +20,7 @@ public class MainActivity extends Activity {
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.rv_content);
         List<String> titles = new ArrayList<>();
         titles.add("(1) 简单请求");
+        titles.add("(2) 缓存请求");
         MainAdapter mainAdapter = new MainAdapter(titles);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(mainAdapter);

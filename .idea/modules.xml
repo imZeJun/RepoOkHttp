@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RepoOKHttp.iml" filepath="$PROJECT_DIR$/RepoOKHttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RepoOkHttp.iml" filepath="$PROJECT_DIR$/RepoOkHttp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
